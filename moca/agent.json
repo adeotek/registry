@@ -1,0 +1,65 @@
+{
+  "id": "moca",
+  "name": "moca",
+  "version": "0.7.8",
+  "description": "A coding agent in one static Go binary: eight frozen tools, native ACP, any OpenAI-compatible model",
+  "repository": "https://github.com/adeotek/moca",
+  "website": "https://github.com/adeotek/moca",
+  "authors": [
+    "adeotek"
+  ],
+  "license": "MIT",
+  "license_url": "https://github.com/adeotek/moca/blob/main/LICENSE",
+  "distribution": {
+    "binary": {
+      "darwin-aarch64": {
+        "archive": "https://github.com/adeotek/moca/releases/download/v0.7.8/moca-v0.7.8-darwin-arm64.tar.gz",
+        "sha256": "f81a7cbc193b34c5d009b4bfa2e6d44ba0d506cca058aacecc22ea354f69b331",
+        "cmd": "./moca",
+        "args": [
+          "acp"
+        ]
+      },
+      "darwin-x86_64": {
+        "archive": "https://github.com/adeotek/moca/releases/download/v0.7.8/moca-v0.7.8-darwin-amd64.tar.gz",
+        "sha256": "52ffca32308b03a917c70e97af46b4cde8bc5562a343bdc4e472e0400d72a585",
+        "cmd": "./moca",
+        "args": [
+          "acp"
+        ]
+      },
+      "linux-aarch64": {
+        "archive": "https://github.com/adeotek/moca/releases/download/v0.7.8/moca-v0.7.8-linux-arm64.tar.gz",
+        "sha256": "215704ab74ab945c8977820852c79d6876820fe7ec9d4532468aadff73b11684",
+        "cmd": "./moca",
+        "args": [
+          "acp"
+        ]
+      },
+      "linux-x86_64": {
+        "archive": "https://github.com/adeotek/moca/releases/download/v0.7.8/moca-v0.7.8-linux-amd64.tar.gz",
+        "sha256": "36334f69b455d52e7f5874b9470daad9810273cf942ae1dd89f16594c0e0392f",
+        "cmd": "./moca",
+        "args": [
+          "acp"
+        ]
+      },
+      "windows-aarch64": {
+        "archive": "https://github.com/adeotek/moca/releases/download/v0.7.8/moca-v0.7.8-windows-arm64.zip",
+        "sha256": "baf0b92612f09933c1892274859732c2c4dbc4fc97a23af802f696dc51ca3f56",
+        "cmd": "moca.exe",
+        "args": [
+          "acp"
+        ]
+      },
+      "windows-x86_64": {
+        "archive": "https://github.com/adeotek/moca/releases/download/v0.7.8/moca-v0.7.8-windows-amd64.zip",
+        "sha256": "050daca513edc05eeaa01efea07b5c90cda8e222eb3242aaf0fb348337bf745b",
+        "cmd": "moca.exe",
+        "args": [
+          "acp"
+        ]
+      }
+    }
+  }
+}
